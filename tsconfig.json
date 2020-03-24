@@ -69,7 +69,7 @@
     "Src"
   ],
   "exclude": [
-    "Src/tests/",
+    "Src/Tests/",
     "node_modules/",
     "Dist"
   ]

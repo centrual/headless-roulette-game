@@ -23,7 +23,7 @@
   "scripts": {
     "build": "del-cli dist && tsc",
     "test": "jest",
-    "prepub": "cpy package.json dist && cpy README.md dist && cpy .npmignore dist && cpy LICENSE dist && jest"
+    "prepub": "del-cli Dist && tsc && copyfiles package.json README.md LICENSE .gitignore Dist && jest"
   },
   "dependencies": {
     "eventemitter2": "^6.2.1",

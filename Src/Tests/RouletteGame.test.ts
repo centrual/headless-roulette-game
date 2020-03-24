@@ -42,6 +42,8 @@ describe("Roulette Game Tests", () => {
       expect(game.Options.RoundStageDurations.RollDuration).toBe(RoundStageDurations.RollDuration);
       expect(game.Options.RoundStageDurations.FinishedInfoDuration).toBe(RoundStageDurations.FinishedInfoDuration);
 
+      game.MakeNewRound();
+
       expect(game.CurrentRound!.Id.length).toBeGreaterThan(0);
       expect(game.CurrentRound!.Secret).toHaveLength(RoundSecretLength);
       expect(game.CurrentRound!.Hash).toHaveLength(512 / 4); // 4 bit = 1 byte
