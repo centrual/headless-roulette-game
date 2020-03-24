@@ -1,7 +1,7 @@
 {
   "name": "roulette_game",
-  "version": "1.0.0",
-  "main": "index.js",
+  "version": "1.0.1",
+  "main": "Index.js",
   "license": "MIT",
   "description": "Headless Roulette Game",
   "repository": "https://github.com/centrual/headless-roulette-game.git",
