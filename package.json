@@ -1,6 +1,6 @@
 {
   "name": "roulette_game",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "main": "Index.js",
   "license": "MIT",
   "description": "Headless Roulette Game",
