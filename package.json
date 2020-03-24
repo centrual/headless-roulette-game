@@ -2,7 +2,7 @@
   "name": "roulette_game",
   "version": "1.0.2",
   "main": "Index.js",
-  "license": "MIT",
+  "license": "SEE LICENSE IN LICENSE",
   "description": "Headless Roulette Game",
   "repository": "https://github.com/centrual/headless-roulette-game.git",
   "keywords": [
