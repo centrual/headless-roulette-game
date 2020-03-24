@@ -1,6 +1,6 @@
 {
   "name": "headless-roulette-game",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "main": "Index.js",
   "license": "GPL-3.0",
   "description": "Headless Roulette Game",
